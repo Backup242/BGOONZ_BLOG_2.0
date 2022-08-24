@@ -1,4 +1,4 @@
-# Bgoonz Blog Readme:
+# Bgoonz Blog Readme
 
 <div align="centered">
 
@@ -15,11 +15,14 @@
 
 #### [⇨Privacy policy⇦](https://codepen.io/bgoonz/pen/LYLJZrW)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a1b7ee1a-11a7-4bd2-a341-2260656e216f/deploy-status)](https://app.netlify.com/sites/bgoonz-blog/deploys)[![CodeFactor](https://www.codefactor.io/repository/github/bgoonz/bgoonz_blog_2.0/badge)](https://www.codefactor.io/repository/github/bgoonz/bgoonz_blog_2.0)[![Tests: `nvm install-latest-npm`](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/latest-npm.yml/badge.svg?branch=2022)](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/latest-npm.yml)[![pages-build-deployment](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/pages/pages-build-deployment)[![Tests: `nvm install-latest-npm`](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/latest-npm.yml/badge.svg?branch=restyled%2Fcms%2Fblog%2Fadding-css-to-your-html)](https://github.com/bgoonz/BGOONZ_BLOG_2.0/actions/workflows/latest-npm.yml)<a href='https://github.com/bgoonz/BGOONZ_BLOG_2.0/' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/github-100000?style=flat&logo=GitHub&logoColor=0C002F&labelColor=FFFFFF&color=black'/></a>![GitHub visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=bgoonz.visitor.badge.reloaded&color=00bbbb&style=for-the-badge&logo=github)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1b7ee1a-11a7-4bd2-a341-2260656e216f/deploy-status)](https://app.netlify.com/sites/bgoonz-blog/deploys)[![CodeFactor](https://www.codefactor.io/repository/github/bgoonz/bgoonz_blog_2.0/badge)](https://www.codefactor.io/repository/github/bgoonz/bgoonz_blog_2.0)
+
+![GitHub visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=bgoonz.visitor.badge.reloaded&color=00bbbb&style=for-the-badge&logo=github)
 
 [![Demo](https://img.youtube.com/vi/OGCcq1_Tbzk/0.jpg)](https://www.youtube.com/watch?v=OGCcq1_Tbzk)
 
-## </div>
+</div>
+---
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -168,8 +171,8 @@ Git comes with Ubuntu, so there's nothing to install. However, you should config
 
 Open an Ubuntu terminal if you don't have one open already.
 
-1.  > You need to configure Git, so type `git config --global user.name "Your Name"` with replacing "Your Name" with your real name.
-2.  > You need to configure Git, so type `git config --global user.email your@email.com` with replacing "<a href="mailto:your@email.com" class="markup--anchor markup--li-anchor">your@email.com</a>" with your real email.
+1. > You need to configure Git, so type `git config --global user.name "Your Name"` with replacing "Your Name" with your real name.
+2. > You need to configure Git, so type `git config --global user.email your@email.com` with replacing "<a href="mailto:your@email.com" class="markup--anchor markup--li-anchor">your@email.com</a>" with your real email.
 
 **Note: if you want git to remember your login credentials type:**
 
@@ -183,12 +186,12 @@ Test if you have Chrome installed by typing "Chrome" in the search box in the bo
 
 Test if you have Node.js installed by opening an Ubuntu terminal and typing `node --version`. If it reports "Command 'node' not found", then you need to follow these directions.
 
-1.  > In the Ubuntu terminal, type `sudo apt update` and press Enter
-2.  > In the Ubuntu terminal, type `sudo apt install build-essential` and press Enter
-3.  > In the Ubuntu terminal, type `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash` and press Enter
-4.  > In the Ubuntu terminal, type `. ./.bashrc` and press Enter
-5.  > In the Ubuntu terminal, type `nvm install --lts` and press Enter
-6.  > Confirm that **node** is installed by typing `node --version` and seeing it print something that is not "Command not found"!
+1. > In the Ubuntu terminal, type `sudo apt update` and press Enter
+2. > In the Ubuntu terminal, type `sudo apt install build-essential` and press Enter
+3. > In the Ubuntu terminal, type `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash` and press Enter
+4. > In the Ubuntu terminal, type `. ./.bashrc` and press Enter
+5. > In the Ubuntu terminal, type `nvm install --lts` and press Enter
+6. > Confirm that **node** is installed by typing `node --version` and seeing it print something that is not "Command not found"!
 
 ### Unzip
 
@@ -256,28 +259,28 @@ As of the time of writing of this document, WSL has an issue renaming or deletin
 
 ---
 
-### Documentation Commands:
+### Documentation Commands
 
-documentation build src/components/DocsMenu.js -f md> ./notes/DocsMenu.md
-documentation build src/components/Footer.js -f md> ./notes/Footer.md
-documentation build src/components/Header.js -f md> ./notes/Header.md
-documentation build src/components/index.js -f md> ./notes/index.md
-documentation build src/components/SectionContent.js -f md> ./notes/SectionContent.md
-documentation build src/components/SectionDocs.js -f md> ./notes/SectionDocs.md
-documentation build src/components/SectionHero.js -f md> ./notes/SectionHero.md
-documentation build src/components/CtaButtons.js -f md> ./notes/CtaButtons.md
-documentation build src/components/DocsSubmenu.js -f md> ./notes/DocsSubmenu.md
-documentation build src/components/FormField.js -f md> ./notes/FormField.md
-documentation build src/components/Icon.js -f md> ./notes/Icon.md
-documentation build src/components/Layout.js -f md> ./notes/Layout.md
-documentation build src/components/SectionCta.js -f md> ./notes/SectionCta.md
-documentation build src/components/SectionGrid.js -f md> ./notes/SectionGrid.md
-documentation build src/components/Submenu.js -f md> ./notes/Submenu.md
-documentation build src/components/ActionLink.js -f md> ./notes/ActionLink.md
+documentation build src/components/DocsMenu.js  -f md> ./notes/DocsMenu.md
+documentation build src/components/Footer.js  -f md> ./notes/Footer.md
+documentation build src/components/Header.js  -f md> ./notes/Header.md
+documentation build src/components/index.js  -f md> ./notes/index.md
+documentation build src/components/SectionContent.js  -f md> ./notes/SectionContent.md
+documentation build src/components/SectionDocs.js  -f md> ./notes/SectionDocs.md
+documentation build src/components/SectionHero.js  -f md> ./notes/SectionHero.md
+documentation build src/components/CtaButtons.js  -f md> ./notes/CtaButtons.md
+documentation build src/components/DocsSubmenu.js  -f md> ./notes/DocsSubmenu.md
+documentation build src/components/FormField.js  -f md> ./notes/FormField.md
+documentation build src/components/Icon.js  -f md> ./notes/Icon.md
+documentation build src/components/Layout.js  -f md> ./notes/Layout.md
+documentation build src/components/SectionCta.js  -f md> ./notes/SectionCta.md
+documentation build src/components/SectionGrid.js  -f md> ./notes/SectionGrid.md
+documentation build src/components/Submenu.js  -f md> ./notes/Submenu.md
+documentation build src/components/ActionLink.js  -f md> ./notes/ActionLink.md
 
 ---
 
-## Blog Content:
+## Blog Content
 
 ---
 
@@ -302,7 +305,7 @@ find . -name "* *" -type d | rename 's/ /_/g'
 find . -name "* *" -type f | rename 's/ /_/g'
 ```
 
-````bash
+```bash
 
 ```bash
 find $dir -type f | sed 's|\(.*/\)[^A-Z]*\([A-Z].*\)|mv \"&\" \"\1\2\"|' | sh
@@ -330,7 +333,7 @@ fs.writeFile('output.md', cat, err => {
   if (err) throw err;
 });
 
-````
+```
 
 ---
 
@@ -358,7 +361,7 @@ wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e ro
 
 ###### code
 
-```bash
+````bash
 
 find . -empty -type d -print -delete
 
@@ -448,7 +451,7 @@ git init
 git add .
 git commit -m"update"
 git push -u origin gh-pages
-```
+````
 
 ```bash
 git init
@@ -531,7 +534,7 @@ find ./ -iname "*.docx" -type f -exec sh -c 'pandoc "${0}" -o "${0%.docx}.md"' {
 
 ```
 
----
+``---
 
 ## 10. Gitpod Installs
 
@@ -700,10 +703,10 @@ for d in ./*; do mv $d ${d:0:12}; done
 
 ```js
 //APPEND-DIR.js
-const fs = require("fs");
-let cat = require("child_process").execSync("cat *").toString("UTF-8");
-fs.writeFile("output.md", cat, (err) => {
-  if (err) throw err;
+const fs = require('fs');
+let cat = require('child_process').execSync('cat *').toString('UTF-8');
+fs.writeFile('output.md', cat, (err) => {
+    if (err) throw err;
 });
 ```
 
@@ -826,9 +829,9 @@ lastUpdated: 2020-10-28T16:19:04+02:00
 sudo sed -i '/title:/d' ./*output.md
 sudo sed -i '/firstSeen/d' ./*output.md
 sudo sed -i '/lastUpdated/d' ./*output.md
-sudo sed -i '/tags:/d' ./*output.md
+sudo sed -i '/tags:/d' ./_output.md
 
-sudo sed -i '/badstring/d' ./*
+sudo sed -i '/badstring/d' ./_
 
 sudo sed -i '/stargazers/d' ./repo.txt
 sudo sed -i '/node_modules/d' ./index.html
@@ -924,7 +927,7 @@ cmd() {
   echo '<style>'
 
 echo '    a {'
-echo '      color: black;'
+echo '      color: #000000;'
 echo '    }'
 echo ''
 echo '    li {'
@@ -974,7 +977,7 @@ echo '  </style>'
 
   # awk '{print "<li>"};
 
-  # 	{print " <a href=\""$1"\">",$1,"</a></li>&nbsp;"}' \ $listing
+  #  {print " <a href=\""$1"\">",$1,"</a></li>&nbsp;"}' \ $listing
 
   echo ""
 
@@ -1036,7 +1039,7 @@ cmd() {
   echo '<style>'
 
 echo '    a {'
-echo '      color: black;'
+echo '      color: #000000;'
 echo '    }'
 echo ''
 echo '    li {'
@@ -1086,7 +1089,7 @@ echo '  </style>'
 
   # awk '{print "<li>"};
 
-  # 	{print " <a href=\""$1"\">",$1,"</a></li>&nbsp;"}' \ $listing
+  #  {print " <a href=\""$1"\">",$1,"</a></li>&nbsp;"}' \ $listing
 
   echo ""
 
@@ -1402,7 +1405,7 @@ find . -type f -exec rename 's/-master//g' {} +
 
 ```
 
-> Notes: The same could be done for folder names by changing the _-type f_ flag (for file) to a _-type d_ flag (for directory)
+> Notes: The same could be done for folder names by changing the *-type f* flag (for file) to a *-type d* flag (for directory)
 
 ```bash
 find <mydir> -type d -exec sed -i 's/<string1>/<string2>/g' {} +
@@ -2206,7 +2209,7 @@ find . -maxdepth 2 -name build -type d
 
 ## To search all files who are not in .git directory
 
-find . ! -iwholename '_.git_' -type f
+find . ! -iwholename '*.git*' -type f
 
 ## To find all files that have the same node (hard link) as MY_FILE_HERE
 
@@ -2267,7 +2270,6 @@ find . -type f -exec chmod 644 {} \;
 
 <details>
   <summary>Click to expand!</summary>
-
 [![@algolia**](https://avatars.githubusercontent.com/u/2034458?s=40&v=4)](https://github.com/algolia)[algolia / algoliasearch-client-javascript](https://github.com/algolia/algoliasearch-client-javascript)@algolia/client-search
 `^ 4.10.3`
 
@@ -2369,8 +2371,7 @@ find . -type f -exec chmod 644 {} \;
 ## Docs Structure
 
 <details>
-<summary>  Docs Structure  </summary>
-
+<summary>  Docs Structure</summary>
 ```
 ├── blog
 │     ├── 300-react-questions.md
@@ -3012,7 +3013,7 @@ find . -type f -exec chmod 644 {} \;
 
 1. **Create a Gatsby site.**
 
-   Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the Gatsby CLI to create a new site, specifying the default starter.
 
 ```bashell
    # create a new Gatsby site using the default starter
@@ -3021,7 +3022,7 @@ find . -type f -exec chmod 644 {} \;
 
 1. **Start developing.**
 
-   Navigate into your new site's directory and start it up.
+    Navigate into your new site's directory and start it up.
 
 ```bashell
    cd my-default-starter/
@@ -3030,11 +3031,11 @@ find . -type f -exec chmod 644 {} \;
 
 1. **Open the source code and start editing!**
 
-   Your site is now running at `http://localhost:8000`!
+    Your site is now running at `http://localhost:8000`!
 
-   _Note: You'll also see a second link:_`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+    *Note: You'll also see a second link:*`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-   Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -3084,7 +3085,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby**](https://www.gatsbyjs.com/tutorial/).\*\* It starts with zero assumptions about your level of ability and walks through every step of the process.
 -
-- **To dive straight into code samples, head [to our documentation**](https://www.gatsbyjs.com/docs/).\*\* In particular, check out the *Guides*, *API Reference*, and *Advanced Tutorials\* sections in the sidebar.
+- **To dive straight into code samples, head [to our documentation**](https://www.gatsbyjs.com/docs/).\*\* In particular, check out the *Guides*, *API Reference*, and *Advanced Tutorials* sections in the sidebar.
 
 ## 💫 Deploy
 
@@ -3158,7 +3159,7 @@ git push -u origin master
 
 Then, open [app.netlify.com](https://app.netlify.com) and add a "New site from Git". Choose your newly created repo and click on "Deploy site" with the default deployment settings.
 
-> _Note: if you don't see the correct repo listed, you may need to install or reconfigure the Netlify app on GitHub._
+> *Note: if you don't see the correct repo listed, you may need to install or reconfigure the Netlify app on GitHub.*
 
 ![Netlify Dashboard for Creating a new site](netlify-dashboard.png)
 
@@ -3180,7 +3181,8 @@ Copy the credentials of your new app listed on [GitHub OAuth Apps](https://githu
 
 Congrats! Now that Netlify CMS is successfully configured to your project, every time you add a new post, the content will be stored in your repository and versioned on GitHub because Netlify CMS is Git-based. Also, thanks to [Netlify's Continuous Deployment](https://www.netlify.com/docs/continuous-deployment/), a new version will be deployed every time you add or edit a post.
 
-## You can learn more about Netlify CMS and how to configure it further in the [Netlify CMS documentation](https://www.netlifycms.org/docs/intro/)
+You can learn more about Netlify CMS and how to configure it further in the [Netlify CMS documentation](https://www.netlifycms.org/docs/intro/)
+---
 
 ---
 
@@ -3199,10 +3201,10 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 -- /.cache
 |-- /plugins
 |-- /public
-|-- /src
-|-- /api
-|-- /pages
-|-- /templates
+|-- /src    
+|-- /api    
+|-- /pages    
+|-- /templates    
 |-- html.js
 |-- /static
 |-- gatsby-config.js
@@ -3213,9 +3215,9 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 
 [Folders](https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/#folders)
 
-- **`/.cache`** _Automatically generated._ This folder is an internal cache created automatically by Gatsby. The files inside this folder are not meant for modification. Should be added to the `.gitignore` file if not added already.
+- **`/.cache`** *Automatically generated.* This folder is an internal cache created automatically by Gatsby. The files inside this folder are not meant for modification. Should be added to the `.gitignore` file if not added already.
 - **`/plugins`** This folder hosts any project-specific ("local") plugins that aren't published as an `npm` package. Check out the [plugin docs](https://www.gatsbyjs.com/docs/plugins/) for more detail.
-- **`/public`** _Automatically generated._ The output of the build process will be exposed inside this folder. Should be added to the `.gitignore` file if not added already.
+- **`/public`** *Automatically generated.* The output of the build process will be exposed inside this folder. Should be added to the `.gitignore` file if not added already.
 - **`/src`** This directory will contain all of the code related to what you will see on the frontend of your site (what you see in the browser), like your site header, or a page template. "src" is a convention for "source code".
 
   - **`/api`** JavaScript and TypeScript files under `src/api` become functions automatically with paths based on their file name. Check out the [functions guide](https://www.gatsbyjs.com/docs/reference/functions/) for more detail.
@@ -3317,14 +3319,14 @@ Open `gatsby-config.js` to add the `gatsby-source-filesystem` plugin. The `path`
 
 ```
 module.exports = {  siteMetadata: {
-    title: "My Gatsby Site",  },
-plugins: [    {
-     resolve: `gatsby-source-filesystem`,
+    title: "My Gatsby Site",  },  
+plugins: [    { 
+     resolve: `gatsby-source-filesystem`,      
 options: {
-        name: `markdown-pages`,
-  path: `${__dirname}/src/markdown-pages`,
-},
-  },
+        name: `markdown-pages`,      
+  path: `${__dirname}/src/markdown-pages`,      
+},  
+  },  
 ],}
 ```
 
@@ -3344,14 +3346,14 @@ Add this to `gatsby-config.js` after the previously added `gatsby-source-filesys
 
 ```
 module.exports = {  siteMetadata: {
-    title: "My Gatsby Site",  },
-plugins: [    {
-     resolve: `gatsby-source-filesystem`,
+    title: "My Gatsby Site",  },  
+plugins: [    { 
+     resolve: `gatsby-source-filesystem`,      
 options: {
-        name: `markdown-pages`,
-  path: `${__dirname}/src/markdown-pages`,
-},
-  },
+        name: `markdown-pages`,      
+  path: `${__dirname}/src/markdown-pages`,      
+},  
+  },  
   `gatsby-transformer-remark`,  ],
 }
 ```
@@ -3388,7 +3390,7 @@ Two things are important in the file above:
 
 1. A GraphQL query is made in the second half of the file to get the Markdown data. Gatsby has automagically given you all the Markdown metadata and HTML in this query's result.
 
-   **Note: To learn more about GraphQL, consider this [excellent resource](https://www.howtographql.com/)**
+    **Note: To learn more about GraphQL, consider this [excellent resource](https://www.howtographql.com/)**
 
 2. The result of the query is injected by Gatsby into the component as the `data` prop. `props.data.markdownRemark` is the property that has all the details of the Markdown file.
 
@@ -3413,7 +3415,7 @@ If the value is not present at the object’s specific path, it will be resolved
 ### Syntax
 
 ```js
-_.get(object, path, defaultValue);
+_.get(object, path, defaultValue)
 ```
 
 ### Parameters
@@ -3455,9 +3457,32 @@ In the JavaScript tab:
 - The `_.get()` method at **line 19** contains a valid path, and therefore the expression is resolved, and `2021` is printed on the console.
 - The `_.get()` method at **Line 23** contains an invalid path, and therefore the expression is resolved as `undefined`.
 
-## Technoloy
+```
+module.exports = {  siteMetadata: {
+    title: "My Gatsby Site",  },  
+plugins: [    { 
+     resolve: `gatsby-source-filesystem`,      
+options: {
+        name: `markdown-pages`,      
+  path: `${__dirname}/src/markdown-pages`,      
+},  
+  },  
+],}
+```
 
-![tech-stack](https://github.com/bgoonz/BGOONZ_BLOG_2.0/blob/master/static/images/madewith.png?raw=true)
+Completing the above step means that you've "sourced" the Markdown files from the filesystem. You can now "transform" the Markdown to HTML and the YAML frontmatter to JSON.
+
+[Transform Markdown to HTML and frontmatter to data using `gatsby-transformer-remark`](https://www.gatsbyjs.com/docs/how-to/routing/adding-markdown-pages/#transform-markdown-to-html-and-frontmatter-to-data-using-gatsby-transformer-remark)
+
+You'll use the plugin [`gatsby-transformer-remark`](https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/) to recognize files which are Markdown and read their content. The plugin will convert the frontmatter metadata part of your Markdown files as `frontmatter` and the content part as HTML.
+
+[Install transformer plugin](https://www.gatsbyjs.com/docs/how-to/routing/adding-markdown-pages/#install-transformer-plugin)
+
+`npm install gatsby-transformer-remark`
+
+[Configure plugin](https://www.gatsbyjs.com/docs/how-to/routing/adding-markdown-pages/#configure-plugin)
+
+Add this to `gatsby-config.js` after the previously added `gatsby-source-filesystem`.
 
 ---
 
@@ -3672,8 +3697,7 @@ bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$
 ## Source Code
 
 <details>
-<summary>  Folder Structure (src)  </summary>
-
+<summary>  Folder Structure (src)</summary>
 ```
 .
 ├── Combined_____-_____Doc.md
@@ -3987,8 +4011,7 @@ bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$
 </details>
 
 <details>
-<summary>  Click To See Component Sourcecode  </summary>
-
+<summary>  Click To See Component Sourcecode</summary>
 ## Component Structure
 
 ```
