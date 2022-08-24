@@ -24,7 +24,7 @@ app.get('/image', async (_req, res) => {
         browser = await getBrowser();
         const page = await browser.newPage();
 
-        await page.goto('https://bgoonz-blog.netlify.app//');
+        await page.goto('https://blog-backup242-org.netlify.app//');
         const screenshot = await page.screenshot();
 
         res.end(screenshot, 'binary');

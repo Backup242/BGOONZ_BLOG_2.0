@@ -297,7 +297,7 @@
         imageSearchExtendedRestricts: {
             filter: 1,
             sort: 'date',
-            as_sitesearch: 'https://bgoonz-blog.netlify.app/'
+            as_sitesearch: 'https://blog-backup242-org.netlify.app/'
         },
         enableHistory: true,
         numTopRefinements: 2147483647,
