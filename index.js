@@ -9,13 +9,11 @@ const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const app = express();
 
 const getBrowser = () =>
-    IS_PRODUCTION
-        ? // Connect to browserless so we don't run Chrome on the same hardware in production
-        puppeteer.connect({
-            browserWSEndpoint: 'wss://chrome.browserless.io?token=2ed5472c-a1e8-4f7e-b71e-8a6daa8e5898'
-        })
-        : // Run the browser locally while in development
-        puppeteer.launch();
+    IS_PRODUCTION ? // Connect to browserless so we don't run Chrome on the same hardware in production
+    puppeteer.connect({
+        browserWSEndpoint: 'wss://chrome.browserless.io?token=2ed5472c-a1e8-4f7e-b71e-8a6daa8e5898'
+    }) : // Run the browser locally while in development
+    puppeteer.launch();
 
 app.get('/image', async (_req, res) => {
     let browser = null;
