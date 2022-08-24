@@ -48,7 +48,7 @@ template: docs
 
 ## ➤Projects
 
-**Gatsby** **GraphQL-Blog** **[Live Site |](https://bgoonz-blog.netlify.app/)[GitHub](https://github.com/bgoonz/BGOONZ_BLOG_2.0)**
+**Gatsby** **GraphQL-Blog** **[Live Site |](https://bgoonz-blog.netlify.app/)[GitHub](https://github.com/Backup242/BGOONZ_BLOG_2.0)**
 
 **Stack:** _JavaScript, React / Gatsby | GraphQL | SCSS | Lodash | Jamstack | Facebook Comments API | jQuery | Firebase_
 
